@@ -1,3 +1,74 @@
 # Cyber-Security-Audit-Botium-Toys
 A comprehensive internal security audit for Botium Toys, focusing on risk assessment, NIST CSF alignment, and control recommendations.
-Internal Security Audit: Botium Toys📌 Project OverviewThis project involved a comprehensive security audit of Botium Toys, a fictional retail enterprise. The audit evaluated the company's entire security program, including physical assets, internal networks, and systems, to identify vulnerabilities and align with industry-standard compliance practices.🎯 ObjectivesPerform a thorough risk assessment of existing hardware, software, and data assets.Complete a Controls and Compliance Checklist to identify security gaps.Align organizational practices with the NIST Cybersecurity Framework (CSF).Recommend actionable mitigation strategies to improve the overall security posture.🛡️ Risk Assessment SummaryMetricAssessmentCurrent Risk Score8 / 10 (High)Risk ImpactMedium (Due to unknown asset exposure)Compliance RiskHigh (Potential for GDPR and PCI-DSS fines)Risk Description: Botium Toys currently suffers from inadequate asset management and lacks several critical technical and administrative controls. This results in a high probability of unauthorized data access and regulatory non-compliance.🔍 Audit Findings (Gap Analysis)Based on the audit, the following security gaps were identified:Critical VulnerabilitiesAccess Control: Lack of Least Privilege and Separation of Duties; all employees currently have access to sensitive PII and cardholder data.Data Protection: No encryption is used for credit card information at rest or in transit.Detection & Recovery: No Intrusion Detection System (IDS) is installed, and there are no disaster recovery plans or data backups in place.Credential Security: Password policies are nominal and do not meet modern complexity requirements (e.g., lack of special characters).Existing StrengthsPerimeter Defense: Properly configured firewalls and up-to-date Antivirus software are in place.Physical Security: Sufficient locks, CCTV surveillance, and fire prevention systems are operational.Regulatory Readiness: A 72-hour breach notification plan for EU customers is already established.💡 RecommendationsTo mitigate the identified risks, the following controls should be prioritized:Identity and Access Management (IAM): Implement a centralized password management system and enforce Least Privilege access protocols.Cryptography: Deploy AES-256 encryption for all locally stored customer PII and financial data to ensure confidentiality.Resilience: Establish a Disaster Recovery Plan (DRP) including regular automated backups of critical data to offsite or cloud storage.Monitoring: Install and configure an Intrusion Detection System (IDS) to monitor internal network traffic for malicious activity.Asset Management: Conduct a full asset classification to determine the impact of potential loss on business continuity.🛠️ Skills DemonstratedFrameworks: NIST Cybersecurity Framework (CSF), GDPR, PCI-DSS.Technical Auditing: Risk Assessment, Gap Analysis, Control Selection.Security Documentation: Technical Writing, Policy Review, Compliance Checklisting.
+# Internal Security Audit: Botium Toys
+
+## 📌 Project Overview
+The scope of this audit covers the entire security program at **Botium Toys**. This includes an evaluation of all physical assets (employee equipment, devices, storefront products), the internal network, and integrated systems. The audit reviewed existing assets, controls, and compliance practices to identify critical gaps and improve the organization's security posture.
+
+---
+
+## 🎯 Objectives
+*   **Asset Assessment:** Identify and document all hardware, software, and data assets managed by the IT department.
+*   **Compliance Review:** Determine alignment with U.S. and international regulations (GDPR, PCI-DSS).
+*   **Gap Analysis:** Use the Controls and Compliance Checklist to identify missing security best practices.
+*   **NIST Alignment:** Map findings to the **NIST Cybersecurity Framework (CSF)** to establish a remediation roadmap.
+
+---
+
+## 🛡️ Risk Assessment
+| Metric | Details |
+| :--- | :--- |
+| **Risk Score** | **8 / 10** (High) |
+| **Impact** | **Medium** (IT department lacks visibility into specific asset risks) |
+| **Compliance Risk** | **High** (Lack of necessary controls for critical data privacy/security) |
+
+> **Risk Summary:** Inadequate asset management and a lack of proper security controls place Botium Toys at significant risk of data breaches and regulatory fines.
+
+---
+
+## 🔍 Audit Findings & Gap Analysis
+
+### **1. Access Control & Identity Management**
+*   **Vulnerability:** Lack of **Least Privilege** and **Separation of Duties**. All employees currently have access to sensitive internal data, including customer PII and cardholder data.
+*   **Vulnerability:** Password policies are nominal and do not meet modern complexity standards (e.g., lack of special characters).
+*   **Vulnerability:** No centralized password management system, leading to productivity loss and security risks.
+
+### **2. Data Security & Cryptography**
+*   **Vulnerability:** Encryption is **not used** for credit card information at rest or in transit within the internal database.
+*   **Vulnerability:** No disaster recovery plans or data backups are currently in place for critical systems.
+
+### **3. Network & System Security**
+*   **Vulnerability:** No **Intrusion Detection System (IDS)** is installed.
+*   **Vulnerability:** Legacy systems are monitored but lack a regular maintenance schedule or clear intervention methods.
+*   **Strength:** A firewall is active with defined security rules.
+*   **Strength:** Antivirus software is installed and monitored regularly.
+
+### **4. Physical Security & Compliance**
+*   **Strength:** Physical locations are secured with sufficient locks, CCTV surveillance, and fire prevention systems.
+*   **Strength:** An EU breach notification plan (72-hour window) is established.
+
+---
+
+## 🛠️ Assets Under Management
+The audit evaluated the following IT-managed assets:
+*   **On-premises equipment:** End-user devices, remote workstations, surveillance cameras, and peripherals.
+*   **Storefront & Inventory:** Products available for retail and online sale; warehouse inventory.
+*   **Systems & Services:** Accounting, ecommerce, inventory management, and database services.
+*   **Legacy Systems:** End-of-life systems requiring specialized monitoring.
+
+---
+
+## 💡 Recommended Remediation
+1.  **Enforce Least Privilege:** Restrict access to PII and cardholder data to only essential personnel.
+2.  **Implement Encryption:** Deploy AES-256 encryption for all customer financial data.
+3.  **Deploy IDS:** Install an Intrusion Detection System to monitor for unauthorized network traffic.
+4.  **Resilience Planning:** Create a formal **Disaster Recovery Plan** and implement automated offsite backups.
+5.  **Modernize Passwords:** Implement a centralized password manager and update complexity requirements.
+
+---
+
+## 🚀 Skills Demonstrated
+*   **NIST CSF Framework Alignment**
+*   **Compliance Auditing (GDPR/PCI-DSS)**
+*   **Risk Identification & Scoring**
+*   **Technical Policy Documentation**
